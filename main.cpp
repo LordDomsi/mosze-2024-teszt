@@ -16,7 +16,7 @@ int main()
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;    //int helyett float
-    for (int i = 0; i < N_ELEMENTS, i++)
+    for (int i = 0; i < N_ELEMENTS, i++)    // for ciklusban , a ; helyett
     {
         atlag += b[i]    //; hianyzik
     }
