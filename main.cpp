@@ -5,7 +5,7 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[NELEMENTS];    //N_ELEMENTS
-    std::cout << '1-100 ertekek duplazasa'    //; hianyzik
+    std::cout << '1-100 ertekek duplazasa'    //; hianyzik es "" helyett '' lett hasznalva
     for (int i = 0;)    //for ciklus hianyos, (int i = 0; i < N_ELEMENTS; i++)
     {
         b[i] = i * 2;
